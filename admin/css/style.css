@@ -1,0 +1,44 @@
+.green{
+	background-color: rgba(11, 195, 11, 0.23);
+}
+
+.red {
+	background-color: rgba(245, 8, 8, 0.18);
+}
+.head {
+	 background-color:#f5f5f5;
+	height:80px; 
+}
+.table>tbody>tr>td {
+	padding: 2px;
+	font-size: 12px;
+	color;#f5f5f5;
+}
+
+.lo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#my_editor {
+	padding-right: 20px;
+}
+
+.field2 {
+	margin-bottom:20px;
+}
+
+ul {
+	list-style-type: none;
+}
+.act{
+	color:#ce4844;
+}
+.adm_red {
+	color: #990000;
+}
+ .a_text:hover   {
+	text-decoration: none;
+}
+.adm_green {
+	color: #009900;
+}

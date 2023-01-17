@@ -1,0 +1,30 @@
+SELECT porter_part.name, porter_part_info.numer
+FROM porter_part p
+INNER JOIN porter_part_info i
+ON porter_part.id = porter_part_info.id_part;
+
+
+
+
+
+
+select 
+a.name, a.title,b.numer
+from
+porter_part a
+join porter_part_info b
+on a.id = b.id_part
+where a.id_kod_info = 1646;
+
+//three tables
+
+select 
+a.name, a.title,b.numer ,c.name
+from
+porter_part a
+inner join porter_part_info b
+on a.id = b.id_part
+inner join angara c
+on b.numer = c.cat
+where a.id_kod_info = 1646;
+

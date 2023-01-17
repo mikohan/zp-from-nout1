@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /include
+Disallow: /*_openstat
+Disallow: /*search
+Disallow: /?url=
+Disallow: /public
+Host: https://zapchastiporter.ru
+Sitemap: https://zapchastiporter.ru/sitemap.xml
+
+User-agent: Yandex
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /*_openstat
+Disallow: /*search
+Disallow: /?url=
+Disallow: /public
+
+
+User-agent: Googlebot
+Disallow: /*from=adwords
+Disallow: /*utm_source
+Disallow: /*_openstat
+Disallow: /*search
+Disallow: /?url
+Disallow: /public
